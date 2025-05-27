@@ -1,16 +1,14 @@
 {
   "name": "fake-filmhub-api",
   "version": "1.0.0",
-  "author": "Martín Cruz",
+  "author": "Martin Cruz",
   "description": "A scalable and efficient API for managing movie-related data",
-  "license": "MIT",
-  "packageManager": "pnpm@9.14.2",
   "engines": {
     "node": "22.x"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/martinncruzz/Fake-FilmHub-API/blob/main"
+    "url": "https://github.com/martinncruzz/fake-filmhub-api"
   },
   "scripts": {
     "postinstall": "pnpm prisma generate",
